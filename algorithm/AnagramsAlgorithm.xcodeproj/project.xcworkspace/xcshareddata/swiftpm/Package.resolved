@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MyPackage",
+        "repositoryURL": "https://github.com/Leo-Lem/MyPackage",
+        "state": {
+          "branch": "main",
+          "revision": "19c759c020d06769a3581d0d7062fce659471ebf",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

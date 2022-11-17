@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  WordScramble
+
+  Created by Leopold Lemmermann on 28.12.21.
+  
+*/
+
+//game view
+"enter-word-label" = "Enter your word";
+"enter-word-label %@" = "Enter your word (language: %@)";
+"enter-name-to-save-label" = "Enter your name to save";
+
+//preferences view
+"preferences-title" = "Preferences";
+"language-preference" = "Select Game Language";
+"timelimit-preference" = "Select Time Limit";
+"autosave-preference" = "Save highscores to the leaderboard automatically?";
+"apply-and-new-game-label" = "Apply and Start New Game";
+"game-preference" = "Game";
+"autosave-preference" = "Autosave";
+
+//login view
+"guest-user" = "Guest";
+"username-label" = "Enter your username";
+"password-label" = "Enter your password";
+"optional-password-label" = "(optional) Select a password";
+
+"current-user-label %@" = "Playing as '%@'";
+
+"login-label" = "Login";
+"logout-label" = "Log out";
+"cancel-label" = "Cancel";
+"register-label" = "Register";
+
+//leaderboard view
+"leaderboard-label" = "Leaderboard";
+//example: "took 21 seconds"
+"took-seconds-label %@" = "took %@";
+//example: "in 21 seconds"
+"in-seconds-label %@" = "in %@";
+//example: "with 'silkworm' (en)"
+"with-word-label %@ %@" = "with '%@' (%@)";
+//example: "on Dec 29, 2021 (5:32 PM)"
+"date-time-label %@ %@" = "on %@ (%@)";
+//example: "Leo scored 21 points"
+"name-score-label %@ %@" = "%@ scored %@";
+
+
+//login alerts
+"title-login-connection" = "Couldn't reach the server...";
+"desc-login-connection" = "You can play as offline (as a Guest) though.";
+"title-login-username" = "Unknown user...";
+"desc-login-username" = "Do you want to register under this name?";
+"title-login-pin" = "Wrong Password :(";
+"desc-login-pin" = "Try again...";
+"title-login-registerUsername" = "Username is already taken...";
+"desc-login-registerUsername" = "Choose something else or continue as a Guest.";
+"title-login-unknown" = "Unexpected Error";
+"desc-login-unknown" = "...";
+
+//rootword alerts
+"title-root-notReal %@" = "You can't use '%@'!";
+"desc-root-notReal" = "It's not a real word...";
+"title-root-tooShort %@" = "You can't use '%@'!";
+"desc-root-tooShort" = "It's too short... (use at least 6 letters)";
+
+//time alerts
+"title-time-half" = "Half Time!";
+"desc-time-half" = "Keep it up!";
+"title-time-out" = "Time's up!";
+"desc-time-out" = "To keep playing disable the timer.";
+
+//new word alerts
+"title-new-isRoot %@" = "'%@' is the root word!";
+"desc-new-isRoot" = "Obviously you can't just use the original word...";
+"title-new-tooShort %@" = "'%@' is too short!";
+"desc-new-tooShort" = "Only words with more than 3 letters allowed...";
+"title-new-notNew %@" = "You already used '%@'!";
+"desc-new-notNew" = "Be more original...";
+"title-new-notPossible %@" = "'%@' is not possible!";
+"desc-new-notPossible" = "You can't just use any word, you know...";
+"title-new-notReal %@" = "'%@'?";
+"desc-new-notReal" = "That's not a word...";
